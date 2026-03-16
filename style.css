@@ -1,0 +1,42 @@
+body{
+    position: relative;
+    padding-top: 5em;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 43em;
+    background-color: rgb(30, 83, 255);
+    position: fixed;
+}
+.logo{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.file{
+    border: 1px solid rgba(50, 127, 228, 0.175);
+    width: 20%; 
+    padding: 2em 3em;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-hero{
+    width: 200px;
+    height: 200px;
+}
+.animation-div{
+
+}
+.animation-h1{
+    -webkit-text-stroke-color: rgb(52, 113, 199);
+    -webkit-text-stroke-width: 1px;
+    font-size: 40px;
+    color: white;
+}
